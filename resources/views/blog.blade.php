@@ -1,4 +1,4 @@
 <x-layout>
     <x-slot:title>{{ $title }}</x-slot>
-    <h3 class="text-xl">ini adalah homepage</h3>
+    <h3 class="text-xl">Welcome to Blog</h3>
 </x-layout>
