@@ -45,6 +45,8 @@ Route::get('/posts/{id}', function ($id) {
 
         // lanjutkan pada video ini https://youtu.be/76YsC4EjGE4?t=1583
     });
+
+    return view('singe_post', ['title' => 'Single Post', 'post_data' => $post]);
 });
 
 Route::get('/about', function () {
